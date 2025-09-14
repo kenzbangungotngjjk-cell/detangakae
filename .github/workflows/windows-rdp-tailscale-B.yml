@@ -46,13 +46,13 @@ defaults:
     shell: pwsh
 
 env:
-  RDP_USER: luiiii
+  RDP_USER: luiiiii
   RDP_PASS: Ziaa@12345
-  TS_HOSTNAME: luiiii
+  TS_HOSTNAME: luiiiii
 
 jobs:
   rdp:
-    runs-on: windows-latest
+    runs-on: windows-2022
     timeout-minutes: 370
     steps:
       - name: 🔧 Resolve inputs (safe)
